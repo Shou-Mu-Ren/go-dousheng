@@ -15,7 +15,7 @@ type VideoListResponse struct {
 }
 
 
-var baseUrl = "http://192.168.1.103:8080/douyin/file/download?filename="
+var baseUrl = "http://0.0.0.0:8080/douyin/file/download?filename="
 
 // Publish check token then save upload file to public directory
 func Publish(c *gin.Context) {
