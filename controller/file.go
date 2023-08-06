@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-var basePath = "E:/Users/skn/VsCode/go/douyin/public/" 
+var basePath = "/home/runner/app/public" 
 
 func FileDownload(c *gin.Context) {
 	filename := c.Query("filename")
