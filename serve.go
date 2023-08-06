@@ -1,7 +1,6 @@
 package main
 
 import (
-	"douyin/controller"
 	"douyin/repository"
 	"douyin/util"
 	"os"
@@ -14,8 +13,6 @@ func main() {
 	if err := Init(); err != nil {
 		os.Exit(-1)
 	}
-
-	go controller.RunMessageServer()
 
 	r := gin.Default()
 
