@@ -27,7 +27,7 @@ func main() {
 
 	//改映射可以用localhost
 	//window用ip连接监听一般不可以用localhost
-	if err := r.Run("127.0.0.1:8080"); err != nil {
+	if err := r.Run("0.0.0.0:8080"); err != nil {
 		return
 	}
 
